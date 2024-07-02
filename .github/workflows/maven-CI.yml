@@ -22,3 +22,6 @@ jobs:
 
       - name: Test project with Maven
         run: mvn -B test
+
+      - name: Build project with Maven
+        run: mvn -B package
